@@ -5,7 +5,7 @@
 *.tar
 
 # PS large files
-*[-lLgG1].ps1
+*[-lLgG]1.ps1
 
 # Minifiers relevant
 PSMinifier.psm1
