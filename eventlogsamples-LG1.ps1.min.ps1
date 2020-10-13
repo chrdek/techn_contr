@@ -1,0 +1,1 @@
+${eventlogsamples-LG1.ps1} = $([ScriptBlock]::Create(([IO.StreamReader]::new(([IO.Compression.GZipStream]::new([IO.MemoryStream]::new([Convert]::FromBase64String('')),[IO.Compression.CompressionMode]'Decompress')),[Text.Encoding]::unicode)).ReadToEnd()))
