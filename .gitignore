@@ -1,0 +1,24 @@
+# PS zipped, 7z other.
+*.zip
+*.7z
+*.tar.gz
+*.tar
+
+# PS large files
+*-[lLgG].ps1
+
+# Minifiers relevant
+PSMinifier.psm1
+Compress*.ps1
+
+# Other files and folders
+.settings/
+.vscode/
+
+# Executables, packages other.
+*.ipa
+*.apk
+*.exe
+*.cmd
+*.bat
+*.vbs
